@@ -21,7 +21,7 @@ const gastos =
 function agregarGasto() {
   let fecha = "";
   while (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) {
-    fecha = prompt("Ingrese la fecha del gasto (formato: AAAA-MM-DD):");
+    fecha = prompt("Ingrese la fecha del gasto (AAAA-MM-DD):");
 
     if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha)) {
       alert(
